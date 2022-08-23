@@ -1,0 +1,194 @@
+.start {
+  width: 100%;
+  height: 100%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.one {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/background.png');
+  background-size: 100% 100%;
+  position: relative;
+
+  .xiaoshi {
+    width: 117px;
+    height: 117px;
+    top: 83px;
+    left: 7px;
+    border-radius: 100%;
+    position: absolute;
+
+  }
+
+  .text {
+    width: 200px;
+    height: 100px;
+    opacity: 0;
+    background: #00606C;
+    border-radius: 47px 47px 47px 47px;
+    left: 132px;
+    top: 72px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: Segoe UI-Bold, Segoe UI, sans-serif;
+    font-weight: bold;
+    color: #FDFDFD;
+    animation: fade-in 4s ease 0s 1;
+    animation-fill-mode: forwards;
+  }
+
+  .map {
+    width: 80vw;
+    height: 60vh;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+  }
+
+  button {
+    width: 227px;
+    height: 78px;
+    opacity: 0;
+    background: #005768;
+    box-shadow: 0 1px 6px 1px rgba(218, 255, 39, 0.16), inset 0 10px 10px 1px rgba(2, 158, 132, 0.16);
+    border-radius: 24px 24px 24px 24px;
+    border: 0 solid #044E88;
+    position: absolute;
+    bottom: 10vh;
+    left: 86px;
+    font-size: 30px;
+    font-family: Segoe UI-Bold, Segoe UI, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0;
+    text-shadow: 0 3px 6px rgba(255, 229, 0, 0.16);
+    animation: fade-in 2s ease 4s 1;
+    animation-fill-mode: forwards;
+  }
+
+  .btn {
+    width: 199px;
+    height: 58px;
+    opacity: 0;
+    position: absolute;
+    bottom: 11vh;
+    left: 95px;
+    box-shadow: 0 3px 6px 1px rgba(19, 147, 194, 0.16);
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #23BAE8;
+    animation: fade-in 2s ease 4s 1;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.place {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/background.png');
+  background-size: 100% 100%;
+  position: relative;
+
+  .tupian {
+    width: 85vw;
+    height: 40vh;
+    position: absolute;
+    top: 8vh;
+    left: 7vw;
+    background-color: gray;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 5px;
+    left: 5vw;
+    width: 83vw;
+    height: 35vh;
+    background: #D1E0E2;
+    border: 10px solid #005768;
+    padding-left: 2vw;
+
+    .title {
+      font-size: 25px;
+      font-family: Segoe UI-Bold, Segoe UI, sans-serif;
+      font-weight: bold;
+      color: #3D3737;
+    }
+
+    p {
+      font-size: 22px;
+      font-family: Segoe UI-Bold, Segoe UI, sans-serif;
+      font-weight: bold;
+      color: #3D3737;
+    }
+
+
+  }
+
+  .xiaoshi {
+    width: 117px;
+    height: 117px;
+    top: 55vh;
+    right: 5vw;
+    border-radius: 100%;
+    position: absolute;
+  }
+
+  .next {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 8vw;
+    bottom: 3vh;
+  }
+
+  .choose {
+
+    .text();
+
+    p {
+      font-size: 24px;
+      font-family: Segoe UI-Bold, Segoe UI, sans-serif;
+      font-weight: bold;
+      color: #004A5A;
+    }
+
+    .b {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    button {
+      width: 225px;
+      height: 56px;
+      background: #005768;
+      box-shadow: inset 0 10px 10px 1px rgba(2, 158, 132, 0.16);
+      border-radius: 24px 24px 24px 24px;
+      font-size: 26px;
+      font-family: Segoe UI-Bold, Segoe UI, sans-serif;
+      font-weight: bold;
+      color: #FFFFFF;
+      border: 0 solid #B1DDFF;
+      margin: 1vh auto;
+    }
+  }
+}
+
+

@@ -1,0 +1,77 @@
+.badge_box {
+  margin-top: 20vw;
+  position: relative;
+
+  .xh {
+    width: 60vw;
+    margin-left: 20vw;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 1.5s;
+  }
+
+  .f {
+    width: 60vw;
+    margin-left: 20vw;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1.5s;
+  }
+
+  .back_back {
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+  }
+
+  .b {
+    width: 60vw;
+    margin-left: 20vw;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    transition: transform 1.5s;
+
+    .badge_text2 {
+      margin-top: 0;
+      width: 50vw;
+      height: 50vw;
+      text-align: center;
+      line-height: 55vw;
+      font-size: 40vw;
+      font-weight: 400;
+      color: #747F70;
+      font-family: STLiti-Regular, STLiti, fangsong;
+    }
+  }
+
+  .xh：hover {
+    cursor: pointer;
+  }
+}
+
+.badge_text {
+  width: 100vw;
+  font-size: 5.5vw;
+  font-weight: bold;
+  color: #3D3737;
+  line-height: 0;
+  margin-top: 15vw;
+  text-align: center;
+}
+
+.badge_back {
+  margin-left: 30vw;
+  margin-top: 15vw;
+  width: 40vw;
+  height: 15vw;
+  background: #005767;
+  border-radius: 6vw;
+  text-align: center;
+  line-height: 15vw;
+  font-size: 11vw;
+  font-weight: bold;
+  color: #FFFFFF;
+}
