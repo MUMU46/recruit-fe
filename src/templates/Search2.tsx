@@ -3,9 +3,9 @@ import {useNavigate} from 'react-router-dom';
 import {useLocation} from 'react-router-dom';
 import '../Styles/place.less';
 import xiaoshi from '../images/xiaoshi.jpg';
-import Next from '../images/下一步.png';
-import ydy from '../images/恽代英广场.jpg'
-import dyy from '../images/露天电影场.jpg'
+import Next from '../images/next.png';
+import ydy from '../images/yundaiying.jpg'
+import dyy from '../images/cinima.jpg'
 
 const Boya = () => {
 

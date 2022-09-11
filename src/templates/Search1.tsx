@@ -2,10 +2,10 @@ import React, {useState} from "react";
 import {useNavigate} from 'react-router-dom';
 import '../Styles/place.less';
 import xiaoshi from '../images/xiaoshi.jpg';
-import Next from '../images/下一步.png';
-import stone from '../images/校训石.jpg'
-import ground from '../images/博雅广场.jpg'
-import wenhua from '../images/文华公书林.jpg'
+import Next from '../images/next.png';
+import stone from '../images/xiaoxun.jpg'
+import ground from '../images/boyaground.jpg'
+import wenhua from '../images/wenhua.jpg'
 
 const Search = () => {
 
@@ -19,9 +19,9 @@ const Search = () => {
 
     const lin = [
         '第二站 文华公书林',
-        '没有找到大门，但来到了老图书馆',
-        '也是学生事务大厅、',
-        '校史馆所在地',
+        '没有找到大门',
+        '但来到了老图书馆',
+        '也是学生事务大厅所在地',
         wenhua
     ];
 

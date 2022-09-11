@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../images/结局.png'
+import bg from '../images/end.png'
 
 const End = () => {
 

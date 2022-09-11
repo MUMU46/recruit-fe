@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom';
 import {useLocation} from 'react-router-dom';
 import '../Styles/place.less';
 import xiaoshi from '../images/xiaoshi.jpg';
-import Next from '../images/下一步.png';
+import Next from '../images/next.png';
 
 const Search4 = () => {
 

@@ -3,9 +3,9 @@ import {useNavigate} from 'react-router-dom';
 import {useLocation} from 'react-router-dom';
 import '../Styles/place.less';
 import xiaoshi from '../images/xiaoshi.jpg';
-import Next from '../images/下一步.png';
-import tsg from '../images/图书馆.jpg'
-import eight from '../images/八号楼.jpg'
+import Next from '../images/next.png';
+import tsg from '../images/tsg.jpg'
+import eight from '../images/bahaolou.jpg'
 
 const Search3 = () => {
 

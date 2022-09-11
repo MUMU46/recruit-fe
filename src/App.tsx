@@ -1,4 +1,5 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import {BrowserRouter, Route, Routes,useNavigate} from "react-router-dom"
+import { useEffect } from "react"
 import Routine from './templates/Routine'
 import Search from './templates/Search1'
 import Search2 from './templates/Search2'
@@ -15,9 +16,12 @@ import Collect4_1 from "./templates/collect4_1";
 import Collect4_2 from "./templates/collect4_2";
 import Collect5 from "./templates/collect5";
 import End from "./templates/end";
+import Tip from "./templates/tip"
 
 
 function App() {
+
+
 
     return (
         <BrowserRouter>
@@ -38,6 +42,7 @@ function App() {
                 <Route path='/collect5' element={<Collect5/>}/>
                 <Route path='/char' element={<Character/>}/>
                 <Route path='/end' element={<End/>}/>
+                <Route path='/tip' element={<Tip />}/>
             </Routes>
         </BrowserRouter>
     )

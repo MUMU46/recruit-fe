@@ -2,7 +2,7 @@ import React from "react";
 import {useNavigate} from 'react-router-dom';
 import '../Styles/south.less';
 import xiaoshi from '../images/xiaoshi.jpg';
-import south from '../images/南门.jpg'
+import south from '../images/nanmen.jpg'
 
 const Nanmen = () => {
 

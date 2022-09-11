@@ -1,14 +1,15 @@
 import React from 'react'
 import '../Styles/collect.less'
 import mex from '../images/mmexport1659345932868.jpg'
-import xxs from '../images/校训石.jpg'
+import xxs from '../images/xiaoxun.jpg'
 import xh from '../images/xiaohui.png'
 import {useNavigate} from "react-router-dom";
+import hua from '../images/hua.png';
 
 const Collect1 = () => {
     const nav = useNavigate()
     const look = () => {
-        const data = ['华'];
+        const data = [hua];
         nav('/char', {replace: false, state: {data}})
     }
 

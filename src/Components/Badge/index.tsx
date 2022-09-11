@@ -1,20 +1,21 @@
 import React, {useState} from "react";
 import './index.less';
+import xiaohui from '../../images/xiaohui.png'
 
 export default function Badge(props: any) {
 
     const [hide, setHide] = useState(true)
     const word = props.word
-    const url = "/src/images/" + word + ".png"
+    console.log(word)
+    const url = word
     const back = () => {
-        window.history.back();
-        window.history.back()
+        window.history.go(-2);
 
     }
     return (
         <div>
             <div className="badge_box">
-                <img src="/src/images/xiaohui.png" alt="" className={hide ? "xh" : "f"} onClick={() => {
+                <img src={xiaohui} alt="" className={hide ? "xh" : "f"} onClick={() => {
                     setHide(false)
                 }}/>
                 <img src={url} alt="" className={hide ? "back_back" : "b"}/>
